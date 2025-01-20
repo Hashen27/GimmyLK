@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+header {
+	align-items: center;
+	justify-content: space-between;
+	padding: 1px 10px;
+	position: sticky;
+	background: #FFFFFF;
+	top: 0;
+	left: 0;
+}
+
+
+
+#navbar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	
+}
+
+#navbar li{
+	list-style: none;
+	padding: 0 1cm;
+}
+
+#navbar li a {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 600;
+	color: #454545;
+	
+}
+
+#navbar li a:hover {
+	color: #FFA559;
+}
+
+.logo {
+	height: 70px; width: 70px;
+}
+
+.main_container{
+	height: 83vh;
+	width: 100%;
+}

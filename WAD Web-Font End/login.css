@@ -1,0 +1,161 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+header {
+	align-items: center;
+	justify-content: space-between;
+	padding: 1px 10px;
+	position: sticky;
+	background: #FFFFFF;
+	top: 0;
+	left: 0;
+}
+
+
+
+#navbar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	
+}
+
+#navbar li{
+	list-style: none;
+	padding: 0 1cm;
+}
+
+#navbar li a {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 600;
+	color: #454545;
+	
+}
+
+#navbar li a:hover {
+	color: #FFA559;
+}
+
+.logo {
+	height: 70px; width: 70px;
+}
+
+
+body {
+	font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-image: url("Images/Black White Yellow Luxury Fashion Business Facebook Cover .png");
+}
+
+.login_form {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  height: 70vh;
+
+  margin: auto;
+  padding: 2rem;
+}
+
+.login_form_left {
+  width: 50%;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px);
+  color: white;
+  
+  
+}
+
+.left_content_wrapper{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.login_form_left form{
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.login_form_left form a{
+	color: #d68500;
+}
+
+.login_form_right{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.login_form_right img{
+	width: 100%;
+	mix-blend-mode: multiply;
+}
+
+.login_form_left form input {
+  height: 30px;
+  width: 300px ;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: none;
+  padding: 0 5px;
+}
+
+
+.login_form_right {
+
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("Images/Untitled design (8).png");
+}
+
+.btn_login {
+  text-align: center;
+  background-color: #000000;
+  color: #ffa034;
+  border: 2px solid #000000;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn_login:hover {
+  background-color: #ffa034;
+  color: #000000;
+}
+
+.login_form_right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_form_right img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+	background-color: #000000;
+	color: #fff;
+	text-align: center;
+	padding: 10px 0;
+  }
